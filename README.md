@@ -6,17 +6,22 @@ Strip `Reactotron` from production builds for Ignite-based apps (using `ignite-i
 
 **This is beta software.**
 
-Please give it a try and lemme know if it doesn't work for you. It should work on any `ignite-ir-boilerplate`-based Ignite app.  If you have any problems, let me know.  I'd love to create a generic babel plugin for *any* reactotron-based app, not just Ignite.
+Please give it a try and lemme know if it doesn't work for you. It should work on any `ignite-ir-boilerplate`-based Ignite app.  If you have any problems, let me know.  I'd love to create a generic babel plugin for *any* `Reactotron`-based app, not just Ignite.
 
 # Overview
 
-I recommend you don't ship with reactotron since it's a debugging tool.
+I recommend you don't ship with `Reactotron` since it's a debugging tool. The problem is, you've already installed it as a dev dependency and peppered a bunch of console.tron statements everywhere.
 
-The problem is, you've already installed it as a dev dependency and peppered a bunch of console.tron statements everywhere.
-
-So rather than go any deeper with if statements, this babel plugin will transform your code to ditch Reactotron in production.
+So rather than go any deeper with if statements, this babel plugin will transform your code to ditch `Reactotron` in production.
 
 # Usage
+
+```sh
+# via npm
+npm i --save-dev babel-plugin-ignite-ignore-reactotron
+# via yarn
+yard add -D babel-plugin-ignite-ignore-reactotron
+```
 
 Modify your `.babelrc` in your home directory to add this plugin.
 
