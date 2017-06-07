@@ -1,0 +1,14 @@
+{
+  "name": "babel-plugin-ignite-ignore-reactotron",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "np": "^2.15.0",
+    "standard": "^10.0.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
