@@ -28,7 +28,11 @@ Modify your `.babelrc` in your home directory to add this plugin.
 ```json
 {
   "presets": ["react-native"],
-  "plugins": ["ignite-ignore-reactotron"]
+  "env": {
+    "production": {
+      "plugins": ["ignite-ignore-reactotron"]
+    }
+  }
 }
 ```
 
@@ -47,10 +51,14 @@ Modify your `.babelrc` in your home directory to add this plugin.
 
 To give this a trial-run in production mode:
 
-In `bash`:
-```bash
-NODE_ENV=production npm start -- --reset-cache
+```sh
+react-native run-ios --configuration Release
 ```
+
+# Thanks
+
+* [Richard Evans](https://github.com/rmevans9) for helping me debug the babel env environment
+* [James Kyle](https://github.com/thejameskyle) for amazing babel [handbook](https://github.com/thejameskyle/babel-handbook)
 
 # Change Log
 
