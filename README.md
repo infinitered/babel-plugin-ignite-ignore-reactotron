@@ -57,10 +57,14 @@ react-native run-ios --configuration Release
 
 # Thanks
 
-* [Richard Evans](https://github.com/rmevans9) for helping me debug the babel env environment
-* [James Kyle](https://github.com/thejameskyle) for amazing babel [handbook](https://github.com/thejameskyle/babel-handbook)
+* [Richard Evans](https://github.com/rmevans9) for helping me debug the babel env environment.
+* [James Kyle](https://github.com/thejameskyle) for the amazing babel [handbook](https://github.com/thejameskyle/babel-handbook).
 
 # Change Log
+
+### 0.2.0 - June 7, 2017
+
+- Adds recipe for running only in production mode. ([@rmevans9](https://github.com/rmevans9))
 
 ### 0.1.0 - June 6, 2017
 
