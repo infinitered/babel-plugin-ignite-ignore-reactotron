@@ -1,14 +1,22 @@
 {
-  "name": "babel-plugin-ignite-ignore-reactotron",
-  "version": "0.0.1",
-  "main": "lib/index.js",
-  "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "np": "^2.15.0",
     "standard": "^10.0.2"
   },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "license": "MIT",
+  "repository": "infinitered/babel-plugin-ignite-ignore-reactotron",
+  "main": "lib/index.js",
+  "name": "babel-plugin-ignite-ignore-reactotron",
+  "scripts": {
+    "shipit": "np"
+  },
   "standard": {
     "parser": "babel-eslint"
-  }
+  },
+  "version": "0.0.1"
 }
