@@ -62,6 +62,10 @@ react-native run-ios --configuration Release
 
 # Change Log
 
+### 0.3.0 - June 17, 2017
+
+- Fixes `console.tron.log()` calls with a noop to play nice inside catch blocks. ([@skellock](https://github.com/skellock))
+
 ### 0.2.0 - June 7, 2017
 
 - Adds recipe for running only in production mode. ([@rmevans9](https://github.com/rmevans9))
