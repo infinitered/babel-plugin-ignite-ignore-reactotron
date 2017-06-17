@@ -55,6 +55,10 @@ To give this a trial-run in production mode:
 react-native run-ios --configuration Release
 ```
 
+# Playground
+
+Here's a [playground](http://astexplorer.net/#/gist/2474e245e17d23691f09785c511ad28d/057a003e1c9a391a77a0b178bf7ee8defc74e963).
+
 # Thanks
 
 * [Richard Evans](https://github.com/rmevans9) for helping me debug the babel env environment.
