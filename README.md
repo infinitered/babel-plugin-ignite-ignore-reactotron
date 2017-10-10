@@ -20,7 +20,7 @@ So rather than go any deeper with if statements, this babel plugin will transfor
 # via npm
 npm i --save-dev babel-plugin-ignite-ignore-reactotron
 # via yarn
-yard add -D babel-plugin-ignite-ignore-reactotron
+yarn add -D babel-plugin-ignite-ignore-reactotron
 ```
 
 Modify your `.babelrc` in your home directory to add this plugin.
