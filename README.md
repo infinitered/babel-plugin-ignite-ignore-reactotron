@@ -1,5 +1,9 @@
 # babel-plugin-ignite-ignore-reactotron
 
+## Why is this archived?
+
+We really appreciate all the community support in the years since we first released babel-plugin-ignite-ignore-reactotron. Our focus has shifted to the latest version of [Ignite](https://github.com/infinitered/ignite), which does not have a plugin-based architecture ([read more here](https://shift.infinite.red/introducing-ignite-4-0-flame-1dfc891f9966)). Feel free to fork this library and continue on its legacy if you want. 
+
 Strip `Reactotron` from production builds for Ignite-based apps (using `ignite-ir-boilerplate`).
 
 # YOLO
